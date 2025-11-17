@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data Files (DON'T upload large datasets)
+data/loans_filtered.csv
+data/accepted_*.csv
+data/X_train_*.csv
+data/y_train_*.csv
+data/X_test.csv
+data/y_test.csv
+*.csv
+
+# Model Files (Large files - optional: upload to Git LFS or skip)
+models/*.pkl
+*.pkl
+*.h5
+*.joblib
+
+# Results (Can upload PNG files, but exclude if too many)
+# Uncomment next line if you have too many images
+# results/*.png
+
+# Streamlit
+.streamlit/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
