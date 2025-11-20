@@ -7,7 +7,6 @@ This notebook covers:
 3. Exploratory Data Analysis
 4. Identifying data quality issues
 
-Author: Your Name
 Date: November 2025
 """
 
